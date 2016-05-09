@@ -29,6 +29,6 @@ def sendMessageCorezoid(message):
 
 # example
 
-sendMessageCorezoid(
-    {"day": "1", "email": "igor.sizon@dataroot.co", "idTemplate":
-     "telegram", "key": "AxYXSJ92xN4ZEdLtLh0_4g", "user": "Igor"})
+# sendMessageCorezoid(
+#     {"day": "1", "email": "igor.sizon@dataroot.co", "idTemplate":
+#      "telegram", "key": "AxYXSJ92xN4ZEdLtLh0_4g", "user": "Igor"})
