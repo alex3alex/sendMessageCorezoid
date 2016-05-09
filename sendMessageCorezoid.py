@@ -11,7 +11,6 @@ def sendMessageCorezoid(template, email):
         "AxYXSJ92xN4ZEdLtLh0_4g","user":"Igor"} }] }' % (email, template)
     url = 'https://www.corezoid.com/api/1/json/'
     subprocess.Popen('sh shell.sh %s %s' % (template, email), shell=True).wait()
-    print('done')
 
 # example
 sendMessageCorezoid('telegram', 'misha.gavela@dataroot.co')
